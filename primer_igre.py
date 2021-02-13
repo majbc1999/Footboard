@@ -9,7 +9,7 @@ kmet22 = Figura(3,2, 'kralj')
 igralec1 = Igralec('Marjan', [kmet11, kmet12])
 igralec2 = Igralec('Tomaž', [kmet21, kmet22])
 
-igrisce = Stadion(4,4)
+igrisce = Stadion(4,4,2)
 
 igraa = Game([igralec1, igralec2], igrisce)
 
